@@ -1,0 +1,141 @@
+// ======共用區======
+body{background-color: $cor-White;}  
+a:hover{transform: scale(1.03);}
+img{padding: $pad-normal 0;}
+
+// ======各區塊======
+.banner{
+    width: 1920px;
+    margin: 0 auto;
+    // 這裡不寫寬度的話 超過1920時 border會跑出去 背景圖也帶有border 覺得不好看
+    background:url(../images/banner/banner-photo.png) no-repeat center center;
+    height: 958px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: $cor-White;
+    border: 1px solid $cor-Gray;
+    margin-bottom: $mb-xlg;
+
+    p{font-size: $fz-sm;
+    line-height: $lh-lg;}
+    h1{font-size: $fz-xlg;
+    line-height: $lh-sm;
+    font-weight: 900;
+    margin-bottom: $mb-md;}
+    h3{font-size: $fz-sm;
+    line-height: $lh-md;
+    margin-bottom: $mb-md-m;
+    }
+    .banner__icon ul{display: flex;}
+    .banner__icon li{padding: 0 .5rem;}
+
+    a:hover{transform: scale(1.3);}
+}
+
+.about{margin-bottom: $mb-xlg;
+
+    .about__content{
+        width: 412px;
+        margin: 0 auto;
+        text-align: center;
+        
+        img{margin: 0 auto;
+        margin-bottom: $mb-sm;}
+    
+        h2{font-size: $fz-lg;
+        line-height:$lh-xsm;
+        margin-bottom:$mb-md-m;}
+        
+        h3{font-size: $fz-md;
+        line-height:$lh-lg;}
+    
+        .about__exp__item h3::before {content:"●";
+            width: 22px; 
+            height: 22px;
+            color: $cor-Red;
+            margin-right: 1rem;}
+    
+        .about__edu__item:nth-child(3) h3{
+        font-size: $fz-md;
+        line-height: $lh-md;
+        padding-bottom: $pad-lg;
+        border-bottom: 1px solid #000 ;
+        margin-bottom: $mb-mb-l;}
+    }
+
+}
+
+.brand{background-color: $cor-Black;
+    color: $cor-White;
+    text-align: center;
+    padding: 3.5rem 0 9rem 0;
+    margin-bottom:$mb-xlg ;
+    border: 1px solid $cor-Gray;
+
+    .brand__content{
+        h2{font-size: $fz-lg;
+        line-height: $lh-xsm;
+        margin-bottom: $mb-normal*.75;}
+        h3{font-size: $fz-md;
+        line-height:$lh-lg;
+        margin-bottom: $mb-md;}
+        p{font-size: $fz-md;
+        line-height: $lh-normal*1.25;
+        margin-bottom: $mb-normal*3.25;}
+        }
+        .brand__photo{width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;    
+        }
+
+        .brand__photo__item:nth-child(1){margin-bottom:$mb-xsm;}
+}
+
+.works{margin-bottom: 9rem;
+
+    .works__content{text-align: center;
+        h2{font-size: $fz-lg;
+        line-height: $lh-xsm;
+        margin-bottom: $mb-normal;}
+        h3{font-size: $fz-sm;
+        line-height:$lh-md;
+        margin-bottom:$mb-xlg;}
+    }
+
+    .works__arts{width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+
+        a{font-size:$fz-sm ;
+        line-height:$lh-md ; 
+        color: $cor-Black;}
+    }
+
+}
+
+footer{background-color: $cor-Black;
+    color: $cor-White;
+    text-align: center;
+    padding:4rem 0 ;
+    border: 1px solid $cor-Gray;
+
+    h2{font-size: $fz-lg;
+    line-height: $lh-xsm;
+    margin-bottom: $mb-normal;}
+
+    li{margin-bottom: $mb-normal;}
+
+    a{font-size: $fz-md;
+    line-height: $lh-md;
+    color: $cor-White;
+    &:hover{color: $cor-Red;}}
+}
