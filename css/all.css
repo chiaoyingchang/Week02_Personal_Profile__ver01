@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto","sans-serif";
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+img {
+  padding: 1rem 0;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: url(../images/banner/banner-photo.png) no-repeat center center;
+  height: 958px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  border: 1px solid #707070;
+  margin-bottom: 3.5rem;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+.banner h1 {
+  font-size: 5rem;
+  line-height: 1.325;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.banner h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.banner .banner__icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner .banner__icon li {
+  padding: 0 .5rem;
+}
+
+.banner a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.about {
+  margin-bottom: 3.5rem;
+}
+
+.about .about__content {
+  width: 412px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about .about__content img {
+  margin: 0 auto;
+}
+
+.about .about__content h2 {
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
+
+.about .about__content h3 {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.about .about__content .about__exp__item h3::before {
+  content: "●";
+  width: 22px;
+  height: 22px;
+  color: #891818;
+  margin-right: 1rem;
+}
+
+.about .about__content .about__edu__item:nth-child(3) h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1.5rem;
+}
+
+.brand {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 3.5rem 0 9rem 0;
+  margin-bottom: 3.5rem;
+  border: 1px solid #707070;
+}
+
+.brand .brand__content h2 {
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+
+.brand .brand__content h3 {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.brand .brand__content p {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 3.25rem;
+}
+
+.brand .brand__photo {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.brand .brand__photo__item:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+
+.works {
+  margin-bottom: 9rem;
+}
+
+.works .works__content {
+  text-align: center;
+}
+
+.works .works__content h2 {
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.works .works__content h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.works .works__arts {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.works .works__arts a {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #000000;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 0;
+  border: 1px solid #707070;
+}
+
+footer h2 {
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+footer li {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #891818;
+}
+/*# sourceMappingURL=all.css.map */
