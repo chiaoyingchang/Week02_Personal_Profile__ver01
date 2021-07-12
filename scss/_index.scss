@@ -3,11 +3,14 @@ body{background-color: $cor-White;}
 a:hover{transform: scale(1.03);}
 img{padding: $pad-normal 0;}
 
+.container{
+    width: 1920px;
+    margin: 0 auto;}
+    // 這裡不寫寬度的話 超過1920時 banner的border會跑出去 背景圖也帶有border 覺得不好看
+    // 所以這次有特地設寬度     
+
 // ======各區塊======
 .banner{
-    width: 1920px;
-    margin: 0 auto;
-    // 這裡不寫寬度的話 超過1920時 border會跑出去 背景圖也帶有border 覺得不好看
     background:url(../images/banner/banner-photo.png) no-repeat center center;
     height: 958px;
 
